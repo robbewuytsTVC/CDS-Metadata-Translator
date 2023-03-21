@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/opaQunit","./pages/List","./pages/Detail","./pages/App"],function(i){"use strict";QUnit.module("Desktop navigation")});                                                                                                            

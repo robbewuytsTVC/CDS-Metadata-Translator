@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/opaQunit","./pages/List"],function(e){"use strict";QUnit.module("List Detail");e("Should see the list with all entries",function(e,t,i){e.iStartMyApp();i.onTheMasterPage.iShouldSeeTheList()});e("Search for the First object sho+
+uld deliver results that contain the firstObject in the name",function(e,t,i){t.onTheMasterPage.iSearchForTheFirstObject();i.onTheMasterPage.theListShowsOnlyObjectsWithTheSearchStringInTheirTitle()})});                                                     

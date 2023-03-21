@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/Opa5","sap/ui/model/odata/v2/ODataModel"],function(a,t){"use strict";return a.extend("translations.test.integration.arrangements.Startup",{iStartMyApp:function(a){var t=a||{};this._clearSharedData();t.delay=t.delay||1;this.iSt+
+artMyUIComponent({componentConfig:{name:"translations",async:true},hash:t.hash,autoWait:t.autoWait})},_clearSharedData:function(){t.mSharedData={server:{},service:{},meta:{}}}})});                                                                           

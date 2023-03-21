@@ -1,0 +1,2 @@
+sap.ui.define(["./BaseController"],function(t){"use strict";return t.extend("translations.controller.NotFound",{onInit:function(){this.getRouter().getTarget("notFound").attachDisplay(this._onNotFoundDisplayed,this)},_onNotFoundDisplayed:function(){this.g+
+etModel("appView").setProperty("/layout","OneColumn")}})});                                                                                                                                                                                                    

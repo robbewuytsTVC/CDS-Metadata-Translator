@@ -1,0 +1,3 @@
+sap.ui.define(["./BaseController","sap/ui/model/json/JSONModel"],function(t,e){"use strict";return t.extend("translations.controller.App",{onInit:function(){var t,n,o=this.getView().getBusyIndicatorDelay();t=new e({busy:true,delay:0,layout:"OneColumn",pr+
+eviousLayout:"",actionButtonsInfo:{midColumn:{fullScreen:false}}});this.setModel(t,"appView");n=function(){t.setProperty("/busy",false);t.setProperty("/delay",o)};this.getOwnerComponent().getModel("translation").metadataLoaded().then(n);this.getOwnerComp+
+onent().getModel("translation").attachMetadataFailed(n);this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass())}})});                                                                                                                  
