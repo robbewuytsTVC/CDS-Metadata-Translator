@@ -1,0 +1,18 @@
+unmanaged implementation in class zcl_cds_meta_translations_root unique;
+
+define behavior for Z_CDS_META_TRANSLATIONS_ROOT alias metadata
+//late numbering
+//lock master
+//etag master <field_name>
+{
+  update;
+  action transport external 'Transport' parameter zcds_transl_tr;
+}
+
+define behavior for Z_CDS_META_TRANSLATIONS alias translation
+implementation in class zcl_cds_meta_translations_root unique
+{
+  create;
+  update;
+
+}

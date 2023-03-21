@@ -1,0 +1,6 @@
+@EndUserText.label: 'CDS Translation Service'
+define service Z_SD_CDS_TRANSLATION {
+  expose Z_CDS_META_TRANSLATIONS_ROOT as CDS;
+  expose Z_CDS_META_TRANSLATIONS as Translations;
+  expose Z_MY_MODIF_WB_TR_REQUESTS as TransportRequests;
+}

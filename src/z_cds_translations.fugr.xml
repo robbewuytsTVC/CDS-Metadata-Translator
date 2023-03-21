@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group for CDS Translations app</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_CDS_TRANSLATIONSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_CDS_TRANSLATIONS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZPM_TR_REQUEST_CHOICE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Remote enabled TR_REQUEST_CHOICE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_REQUEST</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TRKORR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_E071</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TR_OBJECTS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_E071K</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TR_KEYS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_REQUEST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Request/Task</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_E071</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Objects</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_E071K</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Keys</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
